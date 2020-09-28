@@ -6,8 +6,10 @@ The goal of this project is to refactor VBA code that analyzes annual stock perf
 
 ## Results
 
+### Stock Performance
 When comparing the stock performance of selected green energy companies in 2017 and 2018, it became evident that these companies performed better in 2017. For example, the 12 selected companies showed an average of a 67.3% increase in returns with only one company showing a decrease in returns in 2017. In contrast, the same 12 companies showed a collective decrease of 8.5% in returns with only two companies showing increased returns in 2018. 
 
+### Refactoring
 In the context of refactoring the preexisting code, steps 5 through 8 (below) were the areas where code was changed to run faster. Before, the code was broken up into several different subroutines, which made running the code inefficient. Creating one subroutine that did the job of several created faster run times, and was therefore an effective method for creating better VBA code. Figure 1 shows the runtime for the code before refactoring, and Figure 2 shows the runtime for the code after refactoring. 
 
 ### Figure 1
