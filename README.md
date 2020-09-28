@@ -11,7 +11,13 @@ When comparing the stock performance of selected green energy companies in 2017 
 In the context of refactoring the preexisting code, steps 5 through 8 (below) were the areas where code was changed to run faster. Before, the code was broken up into several different subroutines, which made running the code inefficient. Creating one subroutine that did the job of several created faster run times, and was therefore an effective method for creating better VBA code. Figure 1 shows the runtime for the code before refactoring, and Figure 2 shows the runtime for the code after refactoring. 
 
 ### Figure 1
-![]
+![](Resources/VBA_Challenge_2017_Original.png)
+![](Resources/VBA_Challenge_2018_Original.png)
+
+### Figure 2
+![](Resources/VBA_Challenge_2017.png)
+![](Resources/VBA_Challenge_2018.png)
+
 Below is a step by step breakdown of the code used for analyzing this stock data with Excel VBA.
 
 ### Step 1
