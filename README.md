@@ -15,8 +15,7 @@ In the context of refactoring the preexisting code, steps 5 through 8 (below) we
 ![](Resources/VBA_Challenge_2018_Original.png)
 
 ### Figure 2
-![](Resources/VBA_Challenge_2017.png)
-![](Resources/VBA_Challenge_2018.png)
+![](Resources/VBA_Challenge_2017.png) ![](Resources/VBA_Challenge_2018.png)
 
 Below is a step by step breakdown of the code used for analyzing this stock data with Excel VBA.
 
@@ -90,7 +89,7 @@ Sub AllStocksAnalysisRefactored()
     Next i
 ```
 ### Step 7
-*Increase volume for current ticker, check if the current row is the first row for ticker, check if current row is last row for ticker, increae ticker index*
+*Increase volume for current ticker, check if current row is the first row for ticker, check if current row is last row for ticker, increae ticker index*
 ```
     For i = 2 To RowCount
             
