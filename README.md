@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The goal of this project is to refactor VBA code that analyzes annual stock performance in the green energy sector. The client requested a quick and simple way to analyze annual stock performance in order to make informed decisions about investment, which was best accomplished using Excel VBA. The main refactoring goal is to make the code run faster and more efficiently by combining seperate blocks of code to run in one subroutine. Another refactoring goal is to increase the code's performance capability by running an analysis on multiple stocks simultaneously. Refactoring this code provides a reusable subroutine that can handle large amounts of stock market data and produce critical information on stock performance for any year with decreased runtime. 
+The goal of this project is to refactor VBA code that analyzes annual stock performance in the green energy sector. The client requested a quick and simple way to analyze annual stock performance in order to make informed decisions about investment. Fulfilling this request was best accomplished in VBA for two reasons: the client provided data in an Excel workbook and VBA allows the creation of buttons that run VBA code without accessing developer tools. Next, the main refactoring goal is to make the code run faster and more efficiently by combining seperate blocks of code to run in one subroutine. Another refactoring goal is to increase the code's performance capability by running an analysis on multiple stocks simultaneously. Refactoring this code provides a reusable subroutine that can handle large amounts of stock market data and produce critical information on stock performance for any year with decreased runtime. 
 
 ## Results
 
@@ -19,7 +19,7 @@ In the context of refactoring the preexisting code, steps 5 through 8 (below) we
 ### Figure 2
 ![](Resources/VBA_Challenge_2017.png) ![](Resources/VBA_Challenge_2018.png)
 
-Below is a step by step breakdown of the code used for analyzing this stock data with Excel VBA.
+Below is a step by step breakdown of the code used for analyzing the client-provided stock data with Excel VBA.
 
 ### Step 1
 *Create Subroutine for refactoring code*
